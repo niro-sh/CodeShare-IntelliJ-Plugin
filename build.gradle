@@ -1,0 +1,21 @@
+plugins {
+    id 'org.jetbrains.intellij' version '0.6.4'
+}
+
+repositories {
+    mavenCentral()
+}
+
+group 'io.procker.codeshare'
+version '1.0.0'
+
+intellij {
+    version '2020.2'
+}
+patchPluginXml {
+    changeNotes "<h1>[1.0.0] - 2020-11-23</h1><br/>- Initial release of CodeShare</h1>"
+}
+
+dependencies {
+    compile 'org.apache.httpcomponents:httpclient:4.5.13'
+}

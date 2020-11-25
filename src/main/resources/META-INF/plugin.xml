@@ -1,0 +1,37 @@
+<idea-plugin>
+    <id>io.procker.codeshare</id>
+    <name>CodeShare</name>
+    <version>1.0.0</version>
+    <vendor email="info@procker.io" url="https://procker.io">Procker</vendor>
+
+    <description><![CDATA[Upload your code snippets to code.prkr.li and share it with others.]]></description>
+
+    <change-notes><![CDATA[<h1>[1.0.0] - 2020-11-23</h1><br/>- Initial release of CodeShare]]></change-notes>
+
+    <idea-version since-build="173.0"/>
+
+    <depends>com.intellij.modules.platform</depends>
+
+    <extensions defaultExtensionNs="com.intellij">
+    </extensions>
+
+    <actions>
+        <group id="codeshareGroup@1" text="CodeShare" description="Choose your code share option">
+            <separator/>
+            <action id="codeshare.action@1"
+                    class="io.procker.codeshare.actions.ShareAction"
+                    text="Share Code"
+                    description="Share your code for everyone">
+                <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+            </action>
+            <action id="codeshare.action@2"
+                    class="io.procker.codeshare.actions.SharePasswordAction"
+                    text="Share Code with Password"
+                    description="Share your code for user with password">
+                <add-to-group group-id="EditorPopupMenu" anchor="last"/>
+            </action>
+            <separator/>
+        </group>
+    </actions>
+
+</idea-plugin>
