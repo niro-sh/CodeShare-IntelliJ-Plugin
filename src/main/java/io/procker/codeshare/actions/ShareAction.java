@@ -15,7 +15,6 @@ import com.sun.istack.NotNull;
 import io.procker.codeshare.constants.Constants;
 import io.procker.codeshare.constants.MessageConstants;
 import io.procker.codeshare.utils.ShareUtils;
-import sun.plugin2.message.Message;
 
 import java.awt.*;
 import java.awt.datatransfer.Clipboard;

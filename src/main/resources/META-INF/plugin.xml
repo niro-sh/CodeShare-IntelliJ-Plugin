@@ -4,7 +4,26 @@
     <version>1.0.0</version>
     <vendor email="info@procker.io" url="https://procker.io">Procker</vendor>
 
-    <description><![CDATA[Upload your code snippets to code.prkr.li and share it with others.]]></description>
+    <description>
+        <![CDATA[
+        <h1>CodeShare</h1>
+        <a href="https://github.com/ProckerIO/CodeShare-IntelliJ-Plugin">CodeShare for IntelliJ</a> |
+        <a href="https://github.com/ProckerIO/CodeShare-VSCode-Extension">CodeShare for VS Code</a> |
+        <br/>
+        <br/>
+        <p>Exchange and help during coding has become even more important than before in times of home office during COVID-19.
+        Stay connected and upload your code snippets to code.prkr.li and share it with your friends or colleagues.</p>
+        <br/>
+        <h2><b>Features:</b></h2>
+        <ul>
+            <li>Share selected code directly from IntelliJ</li>
+            <li>Protected your shares with a password</li>
+            <li>See additional details like views and more</li>
+            <li>No registration - No annoying spam emails or newsletter</li>
+            <li>Duplicate and edit a share with clicking one button</li>
+        </ul>
+        ]]>
+    </description>
 
     <change-notes><![CDATA[<h1>[1.0.0] - 2020-11-23</h1><br/>- Initial release of CodeShare]]></change-notes>
 
