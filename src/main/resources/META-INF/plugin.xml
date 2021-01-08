@@ -1,7 +1,7 @@
 <idea-plugin>
     <id>io.procker.codeshare</id>
     <name>CodeShare</name>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <vendor email="info@procker.io" url="https://procker.io">Procker</vendor>
 
     <description>
@@ -25,7 +25,7 @@
         ]]>
     </description>
 
-    <change-notes><![CDATA[<h1>[1.0.0] - 2020-11-23</h1><br/>- Initial release of CodeShare]]></change-notes>
+    <change-notes><![CDATA[<h1>[1.0.1] - 2021-01-08</h1><br/>- Update for version 2020.3*<br/><h1>[1.0.0] - 2020-11-23</h1><br/>- Initial release of CodeShare]]></change-notes>
 
     <idea-version since-build="173.0"/>
 
